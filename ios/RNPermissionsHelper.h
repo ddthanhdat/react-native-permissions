@@ -62,6 +62,8 @@ typedef enum {
   RNPermissionStatusDenied = 3,
   RNPermissionStatusAuthorized = 4,
   RNPermissionStatusLimited = 5,
+  RNPermissionStatusWhenInUse = 6,
+  RNPermissionStatusWhenAlways = 7,
 } RNPermissionStatus;
 
 @protocol RNPermissionHandler <NSObject>

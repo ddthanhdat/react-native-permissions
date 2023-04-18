@@ -331,7 +331,11 @@ RCT_EXPORT_MODULE();
     case RNPermissionStatusLimited:
       return @"limited";
     case RNPermissionStatusAuthorized:
-      return @"granted";
+      return @"granted";    
+    case RNPermissionStatusWhenInUse:
+      return @"whenInUse";    
+    case RNPermissionStatusWhenAlways:
+      return @"always";
   }
 }
 

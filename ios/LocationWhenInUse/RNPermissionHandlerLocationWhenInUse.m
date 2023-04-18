@@ -34,8 +34,9 @@
     case kCLAuthorizationStatusDenied:
       return resolve(RNPermissionStatusDenied);
     case kCLAuthorizationStatusAuthorizedWhenInUse:
+      return resolve(RNPermissionStatusWhenInUse);
     case kCLAuthorizationStatusAuthorizedAlways:
-      return resolve(RNPermissionStatusAuthorized);
+      return resolve(RNPermissionStatusWhenAlways);
   }
 }
 
